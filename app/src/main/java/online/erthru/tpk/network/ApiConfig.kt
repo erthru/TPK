@@ -8,7 +8,7 @@ class ApiConfig{
 
     companion object {
         const val BASE_URL = "https://maps.googleapis.com/maps/api/place/"
-        const val API_KEY = "AIzaSyBc1Hm9K5HaB1c5nJWZlOLhgfUReCl12Xw"
+        const val API_KEY = "YOUR_GOOGLE_PLACE_API_KEY"
     }
 
     private fun retrofit() : Retrofit{
