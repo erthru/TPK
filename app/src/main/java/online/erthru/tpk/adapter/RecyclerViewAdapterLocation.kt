@@ -40,6 +40,7 @@ class RecyclerViewAdapterLocation(private val context: Context, private val arra
             i.putExtra("placeId",location?.place_id)
             i.putExtra("lat",location?.geometry?.location?.lat)
             i.putExtra("lng",location?.geometry?.location?.lng)
+            i.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             context.startActivity(i)
 
         }
